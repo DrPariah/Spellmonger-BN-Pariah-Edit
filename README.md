@@ -1,5 +1,6 @@
 # Spellmonger-BN-Pariah-Edit
 Foulman has been working on a Fantasy total conversion mod for DDA, but prior to that had several interesting projects. Spellmonger, a magic mod based on a series of books that I'm sadly not familiar with, was one of them. I had to fold, spindle, and mutilate it a bit but it works (and quite well). If you like this, please, PLEASE go and star Foulman's original repository, as their work is EXCELLENT. (https://github.com/foulman/spellmonger)
+
 Pariah's changes:
 - Spellmonger had a LOT of skills for various types of magic (Photomancy, Warding, Warmagic, Alchemy, Enchanting, and more). These are very awesome, but currently don't have a full suite of spells to take advantage of/justify them. Based on that, I converted everything over to the general Spellcraft skill and saved the other skills in a .txt doc so they can be easily reimplemented later. Spellcraft is duplicated here so you don't have to use Magiclysm if you don't want to.
 - Speaking of, I removed the blacklist for Magiclysm content. Easily reimplemented if you want it, just grab the original mod and copy from there.
