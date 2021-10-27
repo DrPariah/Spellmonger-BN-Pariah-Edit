@@ -1,10 +1,10 @@
 [
   {
     "type": "MOD_INFO",
-    "ident": "spellmonger",
-    "name": "Spellmonger Magic",
+    "ident": "spellmonger_bn",
+    "name": "Spellmonger Magic BN",
     "authors": [ "Aptronym" ],
-    "maintainers": [ "Aptronym" ],
+    "maintainers": [ "Aptronym", "DrPariah" ],
     "description": "War Mage profession and magic system from the Spellmonger series of books by Terry Mancour.",
     "category": "content",
     "dependencies": [ "dda" ]
