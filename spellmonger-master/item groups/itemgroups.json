@@ -3,17 +3,17 @@
 		"type": "item_group",
 		"id": "religious_books",
 		"items": [
-			["spellbook_tier_0", 1],
-			["spellbook_tier_1", 1],
-			["spellbook_tier_2", 1]
+			[ "warmage_primer", 1],
+			[ "warmage_basics", 1],
+			[ "warmage_attack", 1]
 		]
 	},
 	{
 		"type": "item_group",
 		"id": "novels",
 		"items": [
-			["wizard_beginner", 3],
-			["wizard_advanced", 1]
+			[ "warmage_primer", 3],
+			[ "warmage_basics", 1]
 		]
 	},
 	{
