@@ -1,0 +1,241 @@
+[
+  {
+    "id": "warmage_primer",
+    "type": "BOOK",
+    "name": "A Warmage's Primer",
+    "description": "A small, no-nonsense book designed to fit in your pocket. Designed for recruit warmagi, the spells inside are both basic and useful.",
+    "weight": 800,
+    "volume": 1,
+    "price": 300,
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_gather_mana", "spm_str_boost", "spm_ward_cutting", "spm_heal_wound" ] }
+  },
+  {
+    "id": "warmage_basics",
+    "type": "BOOK",
+    "name": "Warmage Basics, Vol. I - The Warmage Field Kit",
+    "description": "The Primer volume is designed to keep a prospective warmage alive. This tome is the next step, providing a toolkit of various magics for field use.",
+    "weight": 800,
+    "volume": 1,
+    "price": 300,
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_cantrip", "spm_magesight", "spm_magelight", "spm_cantrip_create_flame" ] }
+  },
+  {
+    "id": "warmage_attack",
+    "type": "BOOK",
+    "name": "Warmage Basics, Vol. II - Offense",
+    "description": "Once utility spells are mastered, warmagi begin to learn basic offensive magics. This book provides several.",
+    "weight": 800,
+    "volume": 1,
+    "price": 300,
+    "symbol": "!",
+    "color": "magenta",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_cantrip_illusionary_distraction", "spm_shock_bolt", "spm_fire_bolt", "spm_flash" ] }
+  },
+  {
+    "id": "warmage_recon",
+    "type": "BOOK",
+    "name": "Warmage Basics, Vol. III - Recon",
+    "description": "Once a warmage has learned how to keep themselves alive and how to fight, next comes battlefield intelligence. It's further in the training because it requires more finesse than brute force.",
+    "weight": 800,
+    "volume": 1,
+    "price": 300,
+    "symbol": "!",
+    "color": "magenta",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_scrying", "spm_magemap" ] }
+  },
+  {
+    "id": "warmage_attack2",
+    "type": "BOOK",
+    "name": "Warmage Training, Vol. IV - Advanced Offense",
+    "description": "Not everyone advances to this level of warmage training, but when they do they start to learn more unusual spells.",
+    "weight": 800,
+    "volume": 1,
+    "price": 300,
+    "symbol": "#",
+    "color": "black",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_blackfire_bolt", "spm_force_bolt", "spm_force_bolt_spray", "spm_force_blast", "spm_cantrip_forceful_blow" ] }
+  },
+  {
+    "id": "hung_spells_tome",
+    "type": "BOOK",
+    "name": "Warmage Training, Vol. V - Hung Spells",
+    "description": "Warmagi are trained to operate in groups or with support from other casters of different schools. Hung spells represent the ability to send a warmage off on their own, at least for short periods, with reasonable survivability.",
+    "weight": 400,
+    "volume": 1,
+    "price": 300,
+    "symbol": "#",
+    "color": "brown",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_force_bolt_hang", "spm_fire_bolt_hang", "spm_shock_bolt_hang", "spm_force_bolt_spray_hang", "spm_blackfire_bolt_hang", "spm_ward_cutting_hang" ] }
+  },
+  {
+    "id": "voidwalker_tome",
+    "type": "BOOK",
+    "name": "Nondescript Spellbook",
+    "description": "The writing in this otherwise unremarkable book swirls and shifts as you try to read it. Despite that, you can still study it to learn magics related to the Void.",
+    "weight": 800,
+    "volume": 1,
+    "price": 300,
+    "symbol": "?",
+    "color": "white",
+    "use_action": { "type": "learn_spell", "spells": [ "void_bash_proj", "voidw_emission", "voidw_bolt", "voidw_spray", "void_step" ] }
+  },
+  {
+    "abstract": "spell_scroll",
+    "name": { "str": "Spell Scroll" },
+    "type": "BOOK",
+    "weight": "475 g",
+    "volume": "500 ml",
+    "price": 4000,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "white"
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_gather_mana",
+    "name": { "str": "Scroll of Gather Mana", "str_pl": "Scrolls of Gather Mana" },
+    "description": "A scroll containing the spell Gather Mana.",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_gather_mana" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_cantrip_create_flame",
+    "name": { "str": "Scroll of Create Flame", "str_pl": "Scrolls of Create Flame" },
+    "description": "A scroll containing the cantrip Create Flame.",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_cantrip_create_flame" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_spm_cantrip",
+    "name": { "str": "Scroll of Cantrip", "str_pl": "Scrolls of Cantrip" },
+    "description": "A scroll containing the spell Cantrip.",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_cantrip" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_magesight",
+    "name": { "str": "Scroll of Magesight", "str_pl": "Scrolls of Magesight" },
+    "description": "A scroll containing the spell Magesight.",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_magesight" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_spm_magelight",
+    "name": { "str": "Scroll of Magelight", "str_pl": "Scrolls of Magelight" },
+    "description": "A scroll containing the spell Magelight.",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_magelight" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_spm_str_boost",
+    "name": { "str": "Scroll of Warmage Strength Boost", "str_pl": "Scrolls of Warmage Strength Boost" },
+    "description": "A scroll containing the spell Warmage Strength Boost.",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_str_boost" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_spm_shock_bolt",
+    "name": { "str": "Scroll of Shock Bolt", "str_pl": "Scrolls of Shock Bolt" },
+    "description": "A scroll containing the spell Shock Bolt.",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_shock_bolt" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_spm_fire_bolt",
+    "name": { "str": "Scroll of Fire Bolt", "str_pl": "Scrolls of Fire Bolt" },
+    "description": "A scroll containing the spell Fire Bolt.",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_fire_bolt" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_spm_blackfire_bolt",
+    "name": { "str": "Scroll of Blackfire Bolt", "str_pl": "Scrolls of Blackfire Bolt" },
+    "description": "A scroll containing the spell Blackfire Bolt.",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_blackfire_bolt" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_spm_force_bolt",
+    "name": { "str": "Scroll of Force Bolt", "str_pl": "Scrolls of Force Bolt" },
+    "description": "A scroll containing the spell Force Bolt.",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_force_bolt" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_spm_force_bolt_spray",
+    "name": { "str": "Scroll of Force Bolt Spray", "str_pl": "Scrolls of Force Bolt Spray" },
+    "description": "A scroll containing the spell Force Bolt Spray.",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_force_bolt_spray" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_spm_magemap",
+    "name": { "str": "Scroll of Mage Map", "str_pl": "Scrolls of Mage Map" },
+    "description": "A scroll containing the spell Mage Map.",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_magemap" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_spm_scrying",
+    "name": { "str": "Scroll of Scrying", "str_pl": "Scrolls of Scrying" },
+    "description": "A scroll containing the spell Scrying.",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_scrying" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_spm_flash",
+    "name": { "str": "Scroll of Cantrip - Flash", "str_pl": "Scrolls of Cantrip - Flash" },
+    "description": "A scroll containing the cantrip Flash.",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_flash" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_spm_cantrip_illusionary_distraction",
+    "name": { "str": "Scroll of Cantrip - Illusionary Distraction", "str_pl": "Scrolls of Cantrip - Illusionary Distraction" },
+    "description": "A scroll containing the cantrip Illusionary Distraction.",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_cantrip_illusionary_distraction" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_spm_cantrip_forceful_blow",
+    "name": { "str": "Scroll of Cantrip - Forceful Blow", "str_pl": "Scrolls of Cantrip - Forceful Blow" },
+    "description": "A scroll containing the cantrip Forceful Blow.",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_cantrip_forceful_blow" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_heal_wound",
+    "name": { "str": "Scroll of heal wound", "str_pl": "Scrolls of heal wound" },
+    "description": "A proper wizard is always prepared, crystallize your mana for the future!",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_heal_wound" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_ward_cutting",
+    "name": { "str": "Scroll of ward cutting", "str_pl": "Scrolls of ward cutting" },
+    "description": "A proper wizard is always prepared, crystallize your mana for the future!",
+    "use_action": { "type": "learn_spell", "spells": [ "spm_ward_cutting" ] }
+  }  
+  ]

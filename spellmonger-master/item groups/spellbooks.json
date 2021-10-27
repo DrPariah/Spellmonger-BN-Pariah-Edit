@@ -1,0 +1,95 @@
+[
+  {
+    "id": "spell_scroll_tier_0",
+    "type": "item_group",
+    "items": [
+      [ "spell_scroll_gather_mana", 30 ],
+      [ "spell_scroll_cantrip_create_flame", 30 ],
+      [ "spell_scroll_spm_cantrip", 50 ],
+      [ "spell_scroll_magesight", 25 ],
+      [ "spell_scroll_spm_magelight", 30 ],
+      [ "spell_scroll_spm_cantrip_illusionary_distraction", 35 ],
+      [ "spell_scroll_spm_cantrip_forceful_blow", 30 ]
+    ]
+  },
+  {
+    "id": "spell_scroll_tier_1",
+    "type": "item_group",
+    "items": [
+      [ "spell_scroll_heal_wound", 35 ],
+      [ "spell_scroll_ward_cutting", 25 ],
+      [ "spell_scroll_spm_scrying", 30 ],
+      [ "spell_scroll_spm_magemap", 30 ]
+    ]
+  },
+  {
+    "id": "spell_scroll_tier_2",
+    "type": "item_group",
+    "items": [
+      [ "spell_scroll_spm_shock_bolt", 25 ],
+      [ "spell_scroll_spm_fire_bolt", 25 ],
+      [ "spell_scroll_spm_blackfire_bolt", 25 ],
+      [ "spell_scroll_spm_force_bolt", 25 ],
+      [ "spell_scroll_spm_force_bolt_spray", 25 ]
+    ]
+  },
+  {
+    "id": "spellbook_tier_0",
+    "type": "item_group",
+    "//": "These are spellbooks that a beginner would have, or scrolls that would have this tier or one tier higher of spells.",
+    "items": [ [ "warmage_primer", 30 ] ]
+  },
+  {
+    "id": "spellbook_tier_1",
+    "type": "item_group",
+    "items": [ [ "warmage_basics", 50 ], [ "warmage_attack", 50 ], [ "warmage_recon", 50 ] ]
+  },
+  {
+    "id": "spellbook_tier_2",
+    "type": "item_group",
+    "items": [
+      [ "warmage_attack2", 60 ],
+      [ "hung_spells_tome", 60 ],
+      [ "voidwalker_tome", 60 ]
+    ]
+  },
+  {
+    "id": "spellbook_loot_0",
+    "type": "item_group",
+    "//": "the difference between tiers and loot are that loot should be easy to",
+    "//2": "drop into an itemgroup or mapgen without having multiple entries for higher tier spellbooks.",
+    "//3": "and loot tiers will not always have the lower tier spellbook tiers.",
+    "items": [
+      { "group": "spellbook_tier_0", "prob": 60 },
+      { "group": "spellbook_tier_1", "prob": 30 },
+      { "group": "spellbook_tier_2", "prob": 9 },
+      { "group": "spellbook_tier_3", "prob": 1 },
+      { "group": "spell_scroll_tier_0", "prob": 300 },
+      { "group": "spell_scroll_tier_1", "prob": 100 }
+    ]
+  },
+  {
+    "id": "spellbook_loot_1",
+    "type": "item_group",
+    "items": [
+      { "group": "spellbook_tier_0", "prob": 30 },
+      { "group": "spellbook_tier_1", "prob": 50 },
+      { "group": "spellbook_tier_2", "prob": 18 },
+      { "group": "spellbook_tier_3", "prob": 2 },
+      { "group": "spell_scroll_tier_1", "prob": 300 },
+      { "group": "spell_scroll_tier_2", "prob": 100 }
+    ]
+  },
+  {
+    "id": "spellbook_loot_2",
+    "type": "item_group",
+    "items": [
+      { "group": "spellbook_tier_0", "prob": 5 },
+      { "group": "spellbook_tier_1", "prob": 30 },
+      { "group": "spellbook_tier_2", "prob": 50 },
+      { "group": "spellbook_tier_3", "prob": 15 },
+      { "group": "spell_scroll_tier_2", "prob": 300 },
+      { "group": "spell_scroll_tier_3", "prob": 100 }
+    ]
+  }
+]

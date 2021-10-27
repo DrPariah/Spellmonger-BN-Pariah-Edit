@@ -1,0 +1,23 @@
+[
+  {
+    "id": "style_fencing",
+    "copy-from": "style_fencing",
+    "type": "martial_art",
+    "name": { "str": "Fencing" },
+    "extend": { "weapons": [ "wm_mageblade_std" ] }
+  },
+  {
+    "id": "style_swordsmanship",
+    "copy-from": "style_swordsmanship",
+    "type": "martial_art",
+    "name": { "str": "Medieval Swordsmanship" },
+    "extend": { "weapons": [ "wm_mageblade_std" ] }
+  },
+  {
+    "id": "style_ninjutsu",
+    "copy-from": "style_ninjutsu",
+    "type": "martial_art",
+    "name": { "str": "Ninjutsu" },
+    "extend": { "weapons": [ "wm_mageblade_std" ] }
+  }
+]

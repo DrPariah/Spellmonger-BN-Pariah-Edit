@@ -1,0 +1,84 @@
+[
+	{
+		"type": "item_group",
+		"id": "religious_books",
+		"items": [
+			["spellbook_tier_0", 1],
+			["spellbook_tier_1", 1],
+			["spellbook_tier_2", 1]
+		]
+	},
+	{
+		"type": "item_group",
+		"id": "novels",
+		"items": [
+			["wizard_beginner", 3],
+			["wizard_advanced", 1]
+		]
+	},
+	{
+		"type": "item_group",
+		"id": "homebooks",
+		"items": [{
+			"group": "spellbook_loot_0",
+			"prob": 4
+		}]
+	},
+	{
+		"type": "item_group",
+		"id": "manuals",
+		"items": [{
+			"group": "spellbook_loot_0",
+			"prob": 3
+		}]
+	},
+	{
+		"type": "item_group",
+		"id": "lab_bookshelves",
+		"items": [{
+				"group": "spellbook_loot_1",
+				"prob": 3
+			},
+			{
+				"group": "spellbook_loot_2",
+				"prob": 3
+			}
+		]
+	},
+	{
+		"type": "item_group",
+		"id": "mansion_books",
+		"items": [{
+				"group": "spellbook_loot_0",
+				"prob": 6
+			},
+			{
+				"group": "spellbook_loot_1",
+				"prob": 5
+			},
+			{
+				"group": "spellbook_loot_2",
+				"prob": 4
+			}
+		]
+	},
+	{
+		"type": "item_group",
+		"id": "exotic_books",
+		"items": [{
+			"group": "spellbook_loot_1",
+			"prob": 3
+		},
+		{
+			"group": "spellbook_loot_2",
+			"prob": 3
+		}]
+	},
+	{
+		"type": "item_group",
+		"id": "weapons",
+		"items": [
+			["wm_mageblade_std", 2]
+		]
+	}
+]

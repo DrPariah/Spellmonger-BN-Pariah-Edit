@@ -1,0 +1,44 @@
+[{
+		"type": "effect_type",
+		"id": "wm_magesight_eff",
+		"name": ["Magesight"],
+		"desc": ["You magically shift your vision to see the world through the lens of magic."],
+		"apply_message": "Your sight adjusts.",
+		"remove_message": "Your vision returns to normal.",
+		"rating": "good",
+		"base_mods": {
+			"per_mod": [4]
+		},
+		"flags": ["EFFECT_NIGHT_VISION"]
+	},
+	{
+		"type": "effect_type",
+		"id": "wm_str_boost_eff",
+		"name": ["Warmagi Strength Boost"],
+		"desc": ["You magically increase your strength."],
+		"apply_message": "Your strength increases!",
+		"remove_message": "Your strength returns to normal.",
+		"rating": "good",
+		"base_mods": {
+			"str_mod": [3]
+		},
+		"blocks_effects": ["winded", "sleep_deprived", "lack_sleep"],
+		"removes_effects": ["winded", "sleep_deprived", "lack_sleep"]
+	},
+	{
+		"type": "effect_type",
+		"id": "blackfire_burn_1",
+		"name": ["Blackfire Burn"],
+		"desc": ["The damaging blackfire energies continue to rip through your body!"],
+		"main_parts_only": true,
+		"show_in_info": true,
+		"max_duration": "20 s",
+		 "base_mods": {
+      "per_mod": [ -2, -1 ],
+      "dex_mod": [ -1, -1 ],
+      "str_mod": [ -2, -1 ],
+      "pain_min": [ 5 ],
+      "hurt_min": [ 4 ]
+    }
+	}
+]
