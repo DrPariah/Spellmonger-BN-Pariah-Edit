@@ -85,7 +85,7 @@
       { "group": "spellbook_tier_0", "prob": 5 },
       { "group": "spellbook_tier_1", "prob": 30 },
       { "group": "spellbook_tier_2", "prob": 50 },
-      { "group": "spell_scroll_tier_2", "prob": 300 },
+      { "group": "spell_scroll_tier_2", "prob": 300 }
     ]
   }
 ]
